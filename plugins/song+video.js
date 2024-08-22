@@ -16,19 +16,12 @@ const data =  search.videos[0];
 const url = data.url
 
 
-let desc = '
- │---⏪️YouTube Song Downloader By⏩️
-┌┤✑│ Queen Nishu ║Sohan Matheesha...😌💗⚒️ 
-│└────────────┈ ⳹
-|
-└─--------Information---------->       
-│title: ${data.title}
-|description: ${data.description}
-|time: ${data.timestamp}
-|ago: ${data.ago}
-|views: ${data.views}
-│--------------------------------|
-└─ ❤️Develop by Sohan Matheesha❤️
+let desc = '     
+title: ${data.title}
+description: ${data.description}
+time: ${data.timestamp}
+ago: ${data.ago}
+views: ${data.views}
 '
 
 
