@@ -1,12 +1,12 @@
 {
-  "name": "Queen_Razona",
+  "name": "Queen-Nishu-WhatsApp-Bot",
   "version": "1.0.0",
   "description": "A WhatsApp bot created using Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Queen_Razona",
-    "stop": "pm2 stop Queen_Razona",
-    "restart": "pm2 restart Queen_Razona"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Queen-Nishu-WhatsApp-Bot",
+    "stop": "pm2 stop Queen-Nishu-WhatsApp-Bot",
+    "restart": "pm2 restart Queen-Nishu-WhatsApp-Bot"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
