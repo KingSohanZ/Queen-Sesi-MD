@@ -16,21 +16,22 @@ const data =  search.videos[0];
 const url = data.url
 
 
-let desc = '     
-title: ${data.title}
-description: ${data.description}
-time: ${data.timestamp}
-ago: ${data.ago}
-views: ${data.views}
-'
+let desc = "
+    Queen Nishu ║Sohan Matheesha...😌💗⚒️
+    title: ${data.title}
+    description: ${data.description}
+    time: ${data.timestamp}
+    ago: ${data.ago}
+    views: ${data.views}
+"
 
 
-await  conn.sendMessage (from,{image:{url:data.thumbnail},caption:desc},{quoted:mek});
+await  conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
 
 let down  = await fg.yta(url)
 let downloadUrl = down.dl_url
-await conn.sendMessage (from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
-await conn.sendMessage (from,{document: {url:downloadUrl},mimetype:"audio/mpeg", fileName:data.title + ".mp3",caption:"Download By Queen Nishu ║Sohan Matheesha...😌💗⚒️"},{quoted:mek})
+await conn.sendMessage(from,{audio: {url:downloadUrl},mimetype:"audio/mpeg"},{quoted:mek})
+await conn.sendMessage(from,{document: {url:downloadUrl},mimetype:"audio/mpeg", fileName:data.title + ".mp3",caption:"Download By Queen Nishu ║Sohan Matheesha...😌💗⚒️"},{quoted:mek})
 
 
 
